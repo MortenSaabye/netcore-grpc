@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/idealpraktik/examples/grpc/gRPCServer.Tests/gRPCServer.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/idealpraktik/examples/grpc/gRPCServer.Tests/gRPCServer.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/idealpraktik/examples/grpc/gRPCServer.Tests/gRPCServer.Tests.csproj",
+        "projectName": "gRPCServer.Tests",
+        "projectPath": "/Users/idealpraktik/examples/grpc/gRPCServer.Tests/gRPCServer.Tests.csproj",
+        "packagesPath": "/Users/idealpraktik/.nuget/packages/",
+        "outputPath": "/Users/idealpraktik/examples/grpc/gRPCServer.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/idealpraktik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/idealpraktik/examples/grpc/gRPCServer/gRPCServer.csproj": {
+                "projectPath": "/Users/idealpraktik/examples/grpc/gRPCServer/gRPCServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100-preview2-014569/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/idealpraktik/examples/grpc/gRPCServer/gRPCServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/idealpraktik/examples/grpc/gRPCServer/gRPCServer.csproj",
+        "projectName": "gRPCServer",
+        "projectPath": "/Users/idealpraktik/examples/grpc/gRPCServer/gRPCServer.csproj",
+        "packagesPath": "/Users/idealpraktik/.nuget/packages/",
+        "outputPath": "/Users/idealpraktik/examples/grpc/gRPCServer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/idealpraktik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100-preview2-014569/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

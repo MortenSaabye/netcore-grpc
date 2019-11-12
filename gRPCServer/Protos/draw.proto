@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCServer";
+
+package draw;
+
+// The greeting service definition.
+service Draw {
+  rpc DrawPoints(stream DrawPointRequest) returns (stream DrawPoint);
+  rpc ReceiveId(IdRequest) returns (IdResponse);
+}
+
+message IdResponse {
+  int64 id = 1;
+}
+
+message IdRequest {}
+
+message DrawPoint {
+  Point point = 1;
+  Color color = 2;
+}
+
+message DrawPointRequest {
+  DrawPoint drawPoint = 1;
+  int64 id = 2;
+}
+
+message Point {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+message Color {
+  int32 r = 1;
+  int32 b = 2;
+  int32 g = 3;
+}
