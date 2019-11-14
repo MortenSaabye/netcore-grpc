@@ -4,16 +4,38 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    {
-        "name": "gPRC Server",
-        "type": "coreclr",
-        "request": "launch",
-        "preLaunchTask": "build",
-        "program": "${workspaceFolder}/gRPCServer/bin/Debug/netcoreapp3.0/gRPCServer.dll",
-        "args": [],
-        "cwd": "${workspaceFolder}",
-        "stopAtEntry": false,
-        "console": "internalConsole"
-    }
+        {
+            "name": "gPRC Server",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildserver",
+            "program": "${workspaceFolder}/gRPCServer/bin/Debug/netcoreapp3.0/gRPCServer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/gRPCServer",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:4000/"
+            }
+        },
+        {
+            "name": "gPRC Client",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildclient",
+            "program": "${workspaceFolder}/drawClient/bin/Debug/netcoreapp3.1/drawClient.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/drawClient",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "^\\s*Now listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+        
     ]
 }

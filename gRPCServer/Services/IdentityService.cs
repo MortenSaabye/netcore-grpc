@@ -7,7 +7,7 @@ namespace gRPCServer.Services
     {
         public IdentityService()
         {
-            currentId = 0;
+            currentId = -1;
         }
         private long currentId;
         public long GetNextId()
