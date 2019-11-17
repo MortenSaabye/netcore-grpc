@@ -9,6 +9,10 @@
 /Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/drawClient.pdb
 /Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/drawClient.Views.dll
 /Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/drawClient.Views.pdb
+/Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/Google.Protobuf.dll
+/Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/Grpc.Core.Api.dll
+/Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/Grpc.Net.Client.dll
+/Users/idealpraktik/examples/grpc/drawClient/bin/Debug/netcoreapp3.0/Grpc.Net.Common.dll
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.csprojAssemblyReference.cache
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/staticwebassets/drawClient.StaticWebAssets.Manifest.cache
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/staticwebassets/drawClient.StaticWebAssets.xml
@@ -16,6 +20,7 @@
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.RazorComponent.input.cache
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/App.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Counter.razor.g.cs
+/Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Draw.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Error.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/Index.razor.g.cs
@@ -28,6 +33,7 @@
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.RazorCoreGenerate.cache
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/App.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/Pages/Counter.razor.g.cs
+/Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/Pages/Draw.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/Pages/Error.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/Pages/FetchData.razor.g.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/Razor/Pages/Index.razor.g.cs
@@ -42,6 +48,6 @@
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.RazorTargetAssemblyInfo.cache
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.RazorTargetAssemblyInfo.cs
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.Views.pdb
+/Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.csproj.CopyComplete
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.dll
 /Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.pdb
-/Users/idealpraktik/examples/grpc/drawClient/obj/Debug/netcoreapp3.0/drawClient.csproj.CopyComplete

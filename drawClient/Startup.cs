@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using drawClient.Data;
+using Grpc.Net.Client;
+using gRPCClient;
 
 namespace drawClient
 {
@@ -29,6 +31,10 @@ namespace drawClient
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<IDrawService, DrawService>();
+            services.AddScoped<GrpcChannel>(_ => {
+                return GrpcChannel.ForAddress("https://localhost:4000");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

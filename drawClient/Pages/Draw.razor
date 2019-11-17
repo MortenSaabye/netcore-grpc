@@ -1,11 +1,19 @@
 @page "/draw"
 @inject IJSRuntime JSRuntime;
-
+<p>sdfsdfsdfsdfsd</p>
 <canvas width="1000" height="800" style="background-color:aqua"id="drawCanvas" @onmousemove="(e => draw(e))" @onmousedown="(e => mouseDown(e))" @onmouseup="mouseUp" @onmouseout="mouseUp">
-
+<hr />
 </canvas>
 @code {
     private bool isDrawing;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeAsync<string>("startDrawing");
+        }
+    }
 
     private void mouseUp()
     {
@@ -16,12 +24,11 @@
     private void mouseDown(MouseEventArgs e)
     {
         isDrawing = true;
-        JSRuntime.InvokeAsync<string>("startDrawing", e.ClientX, e.ClientY);
     }
 
     private void draw(MouseEventArgs e)
     {
         if(!isDrawing) return;
-        JSRuntime.InvokeAsync<string>("addPoint", e.ClientX, e.ClientY);
+        JSRuntime.InvokeAsync<string>("drawPoint", e.ClientX, e.ClientY);
     }
 }

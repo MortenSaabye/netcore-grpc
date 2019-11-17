@@ -1,0 +1,2 @@
+obj/Debug/netcoreapp3.1/Draw.cs \
+obj/Debug/netcoreapp3.1/DrawGrpc.cs: Protos/draw.proto
